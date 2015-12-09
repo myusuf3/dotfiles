@@ -22,6 +22,7 @@ ln -s ~/Github/dotfiles/gvimrc ~/.gvimrc
 ln -s ~/Github/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/Github/dotfiles/gitignore ~/.gitignore
 ln -s ~/Github/dotfiles/tmux ~/.tmux.conf
+ln -s ~/Github/dotfiles/default-tmux.json ~/.config/themes/tmux/default.json
 ln -s ~/Github/dotfiles/githelpers ~/.githelpers
 ln -s ~/Github/dotfiles/hgrc ~/.hgrc
 ln -s ~/Github/dotfiles/pip.conf ~/.pip/pip.conf
