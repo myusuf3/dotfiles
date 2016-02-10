@@ -37,7 +37,6 @@ unsetopt correct_all
 # Customize to your needs...
 
 
-
 export PATH=/usr/local/opt/ruby/bin:/usr/local:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:
 export PATH=$PATH:/usr/local/sbin
 export PATH=/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH
