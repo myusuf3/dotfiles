@@ -1,0 +1,30 @@
+{
+    "segments": {
+        "right": [
+            {
+                "function": "powerline.segments.common.players.spotify",
+                "name": "player",
+                "priority": 1,
+                "args": {
+                    "format": "{artist} - {title}"
+                }
+            },
+            {
+                "function": "powerline.segments.common.wthr.weather",
+                "priority": 2,
+                "args": {
+                    "unit": "C",
+                    "location_query": "94103"
+                }
+            },
+            {
+                "function": "powerline.segments.common.sys.uptime",
+                "priority": 50
+            },
+            {
+                "function": "powerline.segments.common.sys.system_load",
+                "priority": 60
+            }
+        ]
+    }
+}
