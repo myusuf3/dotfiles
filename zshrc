@@ -40,6 +40,7 @@ unsetopt correct_all
 export PATH=/usr/local/opt/ruby/bin:/usr/local:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:
 export PATH=$PATH:/usr/local/sbin
 export PATH=/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH
+export PATH=$HOME/opt/cassandra/bin:$PATH
 export PATH=/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin:$PATH
 export EDITOR='subl -w'
 
@@ -52,8 +53,8 @@ alias celeryd='python manage.py celery worker --loglevel=info'
 
 # Terminal 256 colors
 export TERM="xterm-256color"
-export PYTHONDONTWRITEBYTECODE=1
-export PYTHONUNBUFFERED=1
+# export PYTHONDONTWRITEBYTECODE=1
+# export PYTHONUNBUFFERED=1
 export VIRTUALENV_DISTRIBUTE=true
 [[ -s /Users/myusuf3/.pythonz/etc/bashrc ]] && source /Users/myusuf3/.pythonz/etc/bashrc
 
@@ -65,3 +66,5 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # Go stuff
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
