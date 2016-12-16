@@ -1,7 +1,7 @@
 {
-    "color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
     "auto_complete_commit_on_tab": true,
     "close_windows_when_empty": true,
+    "color_scheme": "Packages/User/SublimeLinter/Tomorrow-Night-Italics (SL).tmTheme",
     "draw_white_space": "all",
     "find_selected_text": true,
     "folder_exclude_patterns":
@@ -15,18 +15,7 @@
         "build",
         "site"
     ],
-    "ignored_packages":
-    [
-        "Vintage"
-    ],
-        "pep8_ignore":
-    [
-    ],
-    "rulers":
-    [
-        72,
-        79
-    ],
+    "font_face": "OperatorMonoSSm-Light",
     "font_options":
     [
         "subpixel_antialias"
@@ -34,10 +23,21 @@
     "font_size": 12,
     "highlight_line": true,
     "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "pep8_ignore":
+    [
+    ],
+    "rulers":
+    [
+        72,
+        79
+    ],
+    "spacegray_fileicons": true,
     "theme": "Spacegray.sublime-theme",
-    "trim_trailing_white_space_on_save": true,
-    "use_simple_full_screen": true,
     "translate_tabs_to_spaces": false,
+    "trim_trailing_white_space_on_save": true,
+    "use_simple_full_screen": true
 }
-
-
