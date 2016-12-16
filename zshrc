@@ -41,7 +41,8 @@ export PATH=/usr/local/opt/ruby/bin:/usr/local:/usr/local/bin:/usr/bin:/bin:/usr
 export PATH=$PATH:/usr/local/sbin
 export PATH=/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH
 export PATH=$HOME/opt/cassandra/bin:$PATH
-export PATH=/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin:$PATH
+export PATH=/Applications/Sublime\ Text.app/Contents/SharedSupport/bin:$PATH
+
 export EDITOR='subl -w'
 
 source /usr/local/bin/virtualenvwrapper.sh
@@ -67,4 +68,9 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
+
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+export NVM_DIR="/Users/myusuf3/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
