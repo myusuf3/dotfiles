@@ -69,8 +69,7 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 export NVM_DIR="/Users/myusuf3/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
+source /Users/myusuf3/Github/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
