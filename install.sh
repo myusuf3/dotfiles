@@ -30,5 +30,8 @@ ln -s ~/Github/dotfiles/myusuf3.zsh-theme ~/.oh-my-zsh/themes/
 echo "Updating submodules"
 git submodule foreach git pull origin master --recurse-submodules
 
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git 
+mv zsh-syntax-highlighting ../
 echo "All done."
 
