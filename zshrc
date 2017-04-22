@@ -73,3 +73,9 @@ export NVM_DIR="/Users/myusuf3/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 source /Users/myusuf3/Github/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Android apps
+
+export ANDROID_HOME=${HOME}/Library/Android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
