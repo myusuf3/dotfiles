@@ -79,3 +79,5 @@ source /Users/myusuf3/Github/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export ANDROID_HOME=${HOME}/Library/Android/sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
