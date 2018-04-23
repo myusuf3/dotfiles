@@ -12,6 +12,7 @@
 [alias]
 	l = "!source ~/.githelpers && prett_git_log"
 	ci = commit -v
+	pl = pull --rebase
 
 [color]
 	ui = auto
