@@ -1,6 +1,9 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
+
+  [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -29,7 +32,9 @@ ZSH_THEME="refined"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git pip django python brew redis-cli)
+plugins=(git pip django python brew redis-cli node npm github zsh-syntax-highlighting zsh-autosuggestions git-open)
+
+
 
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
@@ -54,8 +59,8 @@ alias celeryd='python manage.py celery worker --loglevel=info'
 
 # Terminal 256 colors
 export TERM="xterm-256color"
-# export PYTHONDONTWRITEBYTECODE=1
-# export PYTHONUNBUFFERED=1
+export PYTHONDONTWRITEBYTECODE=1
+export PYTHONUNBUFFERED=1
 export VIRTUALENV_DISTRIBUTE=true
 [[ -s /Users/myusuf3/.pythonz/etc/bashrc ]] && source /Users/myusuf3/.pythonz/etc/bashrc
 
