@@ -1,7 +1,5 @@
 " Copyright 2012 Mahdi Yusuf, all rights reserved.
 
-call pathogen#infect()              " adding pathogen to vimrc
-call pathogen#helptags()
 
 set nocompatible                    " choose no compatibility with legacy vi
 syntax enable
@@ -25,7 +23,7 @@ set term=screen-256color            " setting colors when vim is inside tmux
 
 "Abbreviations
 :iabbrev @@     yusuf.mahdi@gmail.com
-:iabbrev ccopy  Copyright 2012 Mahdi Yusuf, all rights reserved.
+:iabbrev ccopy  Copyright 2020 Mahdi Yusuf, all rights reserved.
 :iabbrev pdb    # XXX BREAKPOINT XXX <cr>import pdb; pdb.set_trace()
 :iabbrev ppython #!/usr/bin/env python <cr>#-*- coding: utf-8 -*-
 
@@ -47,8 +45,6 @@ noremap! jj <Esc>                   "<Esc> to jj
 "" Mapping 
 let mapleader = ","                 " setting leader to , 
 
-"" Color Scheme
-colorscheme tomorrow_night          " Tomorrow Theme
 
 " Disable Pylint on Save
 "let g:pymode_lint_write = 0         " python-mode
