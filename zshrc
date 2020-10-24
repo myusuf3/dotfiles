@@ -32,8 +32,7 @@ ZSH_THEME="refined"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git pip django python brew redis-cli node npm github zsh-syntax-highlighting zsh-autosuggestions git-open)
-
+plugins=(git pip django python brew redis-cli node npm github)
 
 
 source $ZSH/oh-my-zsh.sh
@@ -46,41 +45,17 @@ export PATH=/usr/local/opt/ruby/bin:/usr/local:/usr/local/bin:/usr/bin:/bin:/usr
 export PATH=$PATH:/usr/local/sbin
 export PATH=/Applications/Postgres.app/Contents/Versions/9.6/bin:$PATH
 export PATH=$HOME/opt/cassandra/bin:$PATH
-export PATH=/Applications/Sublime\ Text.app/Contents/SharedSupport/bin:$PATH
 
-export EDITOR='subl -w'
-
-source /usr/local/bin/virtualenvwrapper.sh
-
-alias runserver='python manage.py runserver'
-alias syncdb='python manage.py syncdb'
-alias youtube='~/Github/youtube-dl/youtube-dl -t'
-alias celeryd='python manage.py celery worker --loglevel=info'
+export EDITOR='code -w'
 
 # Terminal 256 colors
 export TERM="xterm-256color"
-export PYTHONDONTWRITEBYTECODE=1
-export PYTHONUNBUFFERED=1
-export VIRTUALENV_DISTRIBUTE=true
-[[ -s /Users/myusuf3/.pythonz/etc/bashrc ]] && source /Users/myusuf3/.pythonz/etc/bashrc
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
 
 # Go stuff
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
-
-export NVM_DIR="/Users/myusuf3/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-source /Users/myusuf3/Github/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 # Android apps
-
 export ANDROID_HOME=${HOME}/Library/Android/sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools

@@ -8,9 +8,3 @@ Installation
 =============
 
 All you do right now is run the install.sh script in the root directory.
-
-
-Guide
-=====
-
-http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
