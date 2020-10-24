@@ -32,14 +32,14 @@ ZSH_THEME="refined"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git pip django python brew redis-cli node npm github)
+plugins=(git zsh-autosuggestions)
 
 
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
 # Customize to your needs...
-
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export PATH=/usr/local/opt/ruby/bin:/usr/local:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:
 export PATH=$PATH:/usr/local/sbin

@@ -10,6 +10,9 @@ rm ~/.gitconfig
 rm ~/.gitignore
 
 
+echo "Install zsh tools"
+brew install zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
 echo "Symlinking files"
 ln -s ~/Github/dotfiles/zshrc ~/.zshrc
