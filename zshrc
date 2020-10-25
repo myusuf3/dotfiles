@@ -43,7 +43,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export PATH=/usr/local/opt/ruby/bin:/usr/local:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:
 export PATH=$PATH:/usr/local/sbin
-export PATH=/Applications/Postgres.app/Contents/Versions/9.6/bin:$PATH
+export PATH=/Applications/Postgres.app/Contents/Versions/12/bin:$PATH
 export PATH=$HOME/opt/cassandra/bin:$PATH
 
 export EDITOR='code -w'
